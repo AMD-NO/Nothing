@@ -1,0 +1,96 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+
+hosts:
+  'mtalk.google.com': 108.177.125.188
+  'dl.google.com': 180.163.151.161
+  'dl.l.google.com': 180.163.151.161
+
+dns:
+  enable: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - 8.8.4.4
+    - 1.0.0.1
+
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - '*.localdomain'
+    - '*.example'
+    - '*.invalid'
+    - '*.localhost'
+    - '*.test'
+    - '*.local'
+    - '*.home.arpa'
+    # Stun Service
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    # Google Voice
+    - 'lens.l.google.com'
+    # Nintendo Switch
+    - '*.n.n.srv.nintendo.net'
+    # PlayStation
+    - '+.stun.playstation.net'
+    # XBox
+    - 'xbox.*.*.microsoft.com'
+    - '*.*.xboxlive.com'
+    # Microsoft Captive Portal
+    - '*.msftncsi.com'
+    - '*.msftconnecttest.com'
+    # Bilibili CDN
+    - '*.mcdn.bilivideo.cn'
+    # Windows Default LAN WorkGroup
+    - 'WORKGROUP'
+
+  nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+  fallback:
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
+    - https://doh.dns.sb/dns-query
+
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    domain:
+      - '+.google.+'
+      - '+.googleapis.com'
+      - '+.googlevideo.com'
+      - '+.gstatic.cn'
+      - '+.gstatic.com'
+      - '+.gvt1.com'
+      - '+.gvt2.com'
+      - '+.recaptcha.net'
+      - '+.twimg.com'
+      - '+.twitter.com'
+      - '+.youtube.com'
+      - '+.ytimg.com'
+      - 'twitter.com'
+      - 't.co'
+      - 't.me'
+      - 'telegra.ph'
+      - 'youtu.be'
+
+tun:
+  enable: true
+  stack: system
+  dns-hijack:
+    - 198.18.0.2:53
+    - tcp://any:53
+  auto-route: true
+  auto-detect-interface: true
