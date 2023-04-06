@@ -139,7 +139,7 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226352/index.m3u8
 http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.328888.xyz/2023/04/06/iIzROt.png" group-title="地方频道",北京IPTV-4K
 http://221.179.217.76/PLTV/88888888/224/3221226550/1.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",精彩综艺
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.328888.xyz/2023/04/06/iIhPkw.png" group-title="地方频道",精彩综艺
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226009/index.m3u8
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="地方频道",CHC高清电影
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
@@ -175,7 +175,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000337/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000338/index.m3u8
 #EXTINF:-1 tvg-id="1434" tvg-name="山东生活" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/sd_shenghuo.png" group-title="地方频道",山东生活
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000336/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.328888.xyz/2023/04/06/iIBAf8.png" group-title="地方频道",海洋频道
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="https://i.328888.xyz/2023/04/06/iIhGWJ.png" group-title="地方频道",海洋频道
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000662/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="地方频道",山东教育卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000331/index.m3u8
@@ -294,7 +294,7 @@ http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226239/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="黑龙江移动",黑龙江少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="黑龙江移动",黑龙江新闻法制
+#EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="黑龙江移动",黑龙江新闻法治
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="" tvg-logo="" group-title="黑龙江移动",黑龙江农业科教
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
