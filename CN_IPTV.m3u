@@ -125,36 +125,37 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000366/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000073/index.m3u8
 #EXTINF:-1 tvg-id="73" tvg-name="中国教育1台" tvg-logo="http://n.ysyz.top:99/buyaolian/cetv1.png" group-title="地方频道",中国教育1台
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8
-#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/kaku.png" group-title="地方频道",北京卡酷少儿
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000661/index.m3u8
-#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/beijingjishi.png" group-title="地方频道",北京纪实科教
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-id="1976" tvg-name="全纪实" tvg-logo="http://n.ysyz.top:99/buyaolian/leyou.png" group-title="地方频道",乐游
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226580/index.m3u8
-#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/huanxiao.png" group-title="地方频道",欢笑剧场4K
+#EXTINF:-1 tvg-id="1977" tvg-name="欢笑剧场" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/hxjc4k.png" group-title="地方频道",欢笑剧场4K
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226582/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/QY5KBcL/suzhou4k.png" group-title="地方频道",苏州4K
-http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/DtsrLd9/jczy.png" group-title="地方频道",精彩综艺
-http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226009/index.m3u8
 #EXTINF:-1 tvg-id="6241" tvg-name="CHC高清电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC3.jpg" group-title="地方频道",CHC高清电影
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-id="6245" tvg-name="CHC动作电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC1.jpg" group-title="地方频道",CHC动作电影
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="地方频道",CHC家庭影院
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
-#EXTINF:-1 tvg-id="1985" tvg-name="第一财经" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/diyicaijing.png" group-title="地方频道",上海第一财经
+#EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="http://n.ysyz.top:99/buyaolian/hmdh.png" group-title="地方频道",黑莓动画
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
+#EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="http://n.ysyz.top:99/buyaolian/hmdy.png" group-title="地方频道",黑莓电影
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
+#EXTINF:-1 tvg-id="1985" tvg-name="第一财经" tvg-logo="http://n.ysyz.top:99/buyaolian/dycj.png" group-title="地方频道",上海第一财经
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226966/index.m3u8
 #EXTINF:-1 tvg-id="1988" tvg-name="上海纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/shanghaijishi.png" group-title="地方频道",上海纪实人文
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000333/index.m3u8
-#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="http://epg.51zmt.top:8000/tb1/ws/jinyingjishi.png" group-title="地方频道",湖南金鹰纪实
+#EXTINF:-1 tvg-id="67" tvg-name="卡酷动画" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing8.png" group-title="地方频道",北京卡酷少儿
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000661/index.m3u8
+#EXTINF:-1 tvg-id="1872" tvg-name="北京纪实" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Beijing5.png" group-title="地方频道",北京纪实科教
+http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225729/index.m3u8
+#EXTINF:-1 tvg-id="2025" tvg-name="金鹰纪实" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan9.png" group-title="地方频道",湖南金鹰纪实
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000334/index.m3u8
-#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/jinyingkatong.png" group-title="地方频道",湖南金鹰卡通
+#EXTINF:-1 tvg-id="69" tvg-name="金鹰卡通" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan10.png" group-title="地方频道",湖南金鹰卡通
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002027/index.m3u8
-#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/KUAILECHUIDIAO.jpg" group-title="地方频道",湖南快乐垂钓
+#EXTINF:-1 tvg-id="6595" tvg-name="快乐垂钓" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan11.png" group-title="地方频道",湖南快乐垂钓
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226805/index.m3u8
-#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/DOCUMENTARY-CHANNEL.jpg" group-title="地方频道",湖南茶频道
+#EXTINF:-1 tvg-id="6585" tvg-name="茶频道" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Hunan12.png" group-title="地方频道",湖南茶频道
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226808/index.m3u8
+
 #EXTINF:-1 tvg-id="1427" tvg-name="山东齐鲁" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong1.png" group-title="地方频道",山东齐鲁频道
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000313/index.m3u8
 #EXTINF:-1 tvg-id="1428" tvg-name="山东体育" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVLogo/main/img/Shandong2.png" group-title="地方频道",山东体育频道
@@ -173,7 +174,8 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000338/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000336/index.m3u8
 #EXTINF:-1 tvg-id="山东教育卫视" tvg-name="山东教育卫视" tvg-logo="https://ghproxy.com/https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Shandongjy.png" group-title="地方频道",山东教育卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000331/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/G3vy91Z/hypd.png" group-title="地方频道",海洋频道
+
+#EXTINF:-1 group-title="地方频道",海洋频道
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000662/index.m3u8
 #EXTINF:-1 group-title="地方频道",济南新闻综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
@@ -270,83 +272,83 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001056/index.m3u8
 #EXTINF:-1 group-title="地方频道",临邑1台
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001104/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕视频 1
+#EXTINF:-1 group-title="其他频道",咪咕视频 1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕视频 2
+#EXTINF:-1 group-title="其他频道",咪咕视频 2
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕视频 3
+#EXTINF:-1 group-title="其他频道",咪咕视频 3
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕视频 4
+#EXTINF:-1 group-title="其他频道",咪咕视频 4
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕视频 5
+#EXTINF:-1 group-title="其他频道",咪咕视频 5
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/RbNvYzY/migu.png" group-title="黑龙江移动",咪咕全民热练
+#EXTINF:-1 group-title="其他频道",咪咕全民热练
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江影视
+#EXTINF:-1 group-title="其他频道",苏州4K
+http://liveshowbak2.kan0512.com/ksz-norecord/csztv4k_4k.m3u8
+#EXTINF:-1 group-title="其他频道",精彩综艺
+http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226009/index.m3u8
+#EXTINF:-1 group-title="其他频道",黑龙江影视
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226298/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江文体
+#EXTINF:-1 group-title="其他频道",黑龙江文体
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226239/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江都市
+#EXTINF:-1 group-title="其他频道",黑龙江都市
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226301/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江少儿
+#EXTINF:-1 group-title="其他频道",黑龙江少儿
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226304/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江新闻法治
+#EXTINF:-1 group-title="其他频道",黑龙江新闻法治
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226330/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑龙江农业科教
+#EXTINF:-1 group-title="其他频道",黑龙江农业科教
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226242/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",佳木斯新闻综合
+#EXTINF:-1 group-title="其他频道",佳木斯新闻综合
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226451/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",鹤岗新闻综合
+#EXTINF:-1 group-title="其他频道",鹤岗新闻综合
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226534/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑莓动画
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
-#EXTINF:-1 group-title="黑龙江移动",黑莓电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 东北热剧
+#EXTINF:-1 group-title="其他频道",NewTV 东北热剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225741/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 中国功夫
+#EXTINF:-1 group-title="其他频道",NewTV 中国功夫
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225681/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 军事评论
+#EXTINF:-1 group-title="其他频道",NewTV 军事评论
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225668/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 军旅剧场
+#EXTINF:-1 group-title="其他频道",NewTV 军旅剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225676/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 农业致富
+#EXTINF:-1 group-title="其他频道",NewTV 农业致富
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225683/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 动作电影
+#EXTINF:-1 group-title="其他频道",NewTV 动作电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225661/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 古装剧场
+#EXTINF:-1 group-title="其他频道",NewTV 古装剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225663/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 家庭剧场
+#EXTINF:-1 group-title="其他频道",NewTV 家庭剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225677/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 怡伴健康
+#EXTINF:-1 group-title="其他频道",NewTV 怡伴健康
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225673/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 惊悚悬疑
+#EXTINF:-1 group-title="其他频道",NewTV 惊悚悬疑
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225665/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 明星大片
+#EXTINF:-1 group-title="其他频道",NewTV 明星大片
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225664/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 欢乐剧场
+#EXTINF:-1 group-title="其他频道",NewTV 欢乐剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225742/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 武搏世界
+#EXTINF:-1 group-title="其他频道",NewTV 武搏世界
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225680/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 海外剧场
+#EXTINF:-1 group-title="其他频道",NewTV 海外剧场
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225671/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 潮妈辣婆
+#EXTINF:-1 group-title="其他频道",NewTV 潮妈辣婆
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225685/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 炫舞未来
+#EXTINF:-1 group-title="其他频道",NewTV 炫舞未来
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225719/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 爱情喜剧
+#EXTINF:-1 group-title="其他频道",NewTV 爱情喜剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225669/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 精品大剧
+#EXTINF:-1 group-title="其他频道",NewTV 精品大剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225670/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 精品纪录
+#EXTINF:-1 group-title="其他频道",NewTV 精品纪录
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225672/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 超级体育
+#EXTINF:-1 group-title="其他频道",NewTV 超级体育
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225715/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 超级电影
+#EXTINF:-1 group-title="其他频道",NewTV 超级电影
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225717/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 超级电视剧
+#EXTINF:-1 group-title="其他频道",NewTV 超级电视剧
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225716/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 超级综艺
+#EXTINF:-1 group-title="其他频道",NewTV 超级综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225714/index.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bWXSR5s/newtv.png" group-title="黑龙江移动",NewTV 金牌综艺
+#EXTINF:-1 group-title="其他频道",NewTV 金牌综艺
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225666/index.m3u8
