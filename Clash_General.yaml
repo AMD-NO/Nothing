@@ -7,7 +7,7 @@ ipv6: false # 阻止 IPv6 连接和屏蔽 DNS 请求 AAAA 记录
 external-controller: 127.0.0.1:9090 # RESTful web API 监听地址
 
 dns:
-  enable: true
+  enable: true # 启用自定义 DNS 服务器
   listen: 0.0.0.0:53
   default-nameserver: # 用于解析 DoH/DoT 服务器的 IP 地址
     - 223.5.5.5
@@ -17,7 +17,7 @@ dns:
   fake-ip-filter: # 以下域名返回 real IP 以提高兼容性
     - '*.lan'
     - localhost.ptlogin2.qq.com
-  nameserver:
+  nameserver: # 并发查询 使用返回结果最快的 DNS 服务器
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
     - 223.5.5.5
