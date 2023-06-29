@@ -135,6 +135,14 @@ http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226463/index.m3u8
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226465/index.m3u8
 #EXTINF:-1 tvg-id="6246" tvg-name="CHC家庭电影" tvg-logo="http://epg.51zmt.top:8000/tb1/qt/CHC2.jpg" group-title="地方频道",CHC家庭影院
 http://dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226462/index.m3u8
+#EXTINF:-1 tvg-id="求索纪录" tvg-name="求索纪录" tvg-logo="http://n.ysyz.top:99/buyaolian/qsjl.png" group-title="地方频道",求索纪录
+http://39.134.65.208/PLTV/88888888/224/3221225713/index.m3u8
+#EXTINF:-1 tvg-id="求索生活" tvg-name="求索生活" tvg-logo="http://n.ysyz.top:99/buyaolian/qssh.png" group-title="地方频道",求索生活
+http://39.134.65.208/PLTV/88888888/224/3221225715/index.m3u8
+#EXTINF:-1 tvg-id="求索科学" tvg-name="求索科学" tvg-logo="http://n.ysyz.top:99/buyaolian/qskx.png" group-title="地方频道",求索科学
+http://39.134.65.208/PLTV/88888888/224/3221225728/index.m3u8
+#EXTINF:-1 tvg-id="求索动物" tvg-name="求索动物" tvg-logo="http://n.ysyz.top:99/buyaolian/qsdw.png" group-title="地方频道",求索动物
+http://39.134.65.208/PLTV/88888888/224/3221225730/index.m3u8
 #EXTINF:-1 tvg-id="黑莓动画" tvg-name="黑莓动画" tvg-logo="http://n.ysyz.top:99/buyaolian/hmdh.png" group-title="地方频道",黑莓动画
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 #EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="http://n.ysyz.top:99/buyaolian/hmdy.png" group-title="地方频道",黑莓电影
