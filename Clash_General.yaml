@@ -9,16 +9,14 @@ external-controller: 127.0.0.1:9090 # RESTful web API 监听地址
 dns:
   enable: true
   listen: 0.0.0.0:53
-  default-nameserver:
+  default-nameserver: # 用于解析 DoH/DoT 服务器的 IP 地址
     - 223.5.5.5
     - 1.1.1.1
-
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
+  fake-ip-filter: # 以下域名返回 real IP 以提高兼容性
     - '*.lan'
     - localhost.ptlogin2.qq.com
-
   nameserver:
     - https://dns.alidns.com/dns-query
     - https://doh.pub/dns-query
