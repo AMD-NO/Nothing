@@ -1,7 +1,7 @@
-mixed-port: 7890 # HTTP(S) 和 SOCKS 代理混合端口
+mixed-port: 7890 # HTTP + SOCKS 代理混合端口
 allow-lan: true # 允许局域网连接
 bind-address: '*' # 绑定所有 IP 地址 # 仅在允许局域网连接时适用
-mode: rule # rule / global / direct
+mode: rule # global / rule / direct
 log-level: info # silent / error / warning / info / debug
 ipv6: false # 阻止 IPv6 连接和屏蔽 DNS 请求 AAAA 记录
 external-controller: 127.0.0.1:9090 # RESTful web API 监听地址
