@@ -280,6 +280,8 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001056/index.m3u8
 #EXTINF:-1 group-title="地方频道",临邑1台
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001104/index.m3u8
 
+#EXTINF:-1 group-title="其他频道",环法自行车赛
+https://live7-lnvptmupny.zhibo.tv/8live/s_8187696.flv
 #EXTINF:-1 group-title="其他频道",咪咕视频 1
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
 #EXTINF:-1 group-title="其他频道",咪咕视频 2
