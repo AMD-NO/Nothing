@@ -1,6 +1,17 @@
-# Sooka
+# astro
 DOMAIN-SUFFIX,astro.com.my
+
+# sooka
 DOMAIN-SUFFIX,sooka.my
 DOMAIN,d3j4fjrwclc3o8.cloudfront.net
 DOMAIN,dcqkiaqc3sngm.cloudfront.net
 DOMAIN,d1fk7kbmz4il3.cloudfront.net
+
+# mewatch
+DOMAIN,tglmp01.akamaized.net
+DOMAIN,tglmp02.akamaized.net
+DOMAIN,tglmp03.akamaized.net
+DOMAIN,tglmp04.akamaized.net
+
+# starhub
+DOMAIN-SUFFIX,starhubgo.com
