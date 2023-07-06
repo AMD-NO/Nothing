@@ -2,13 +2,12 @@
 DOMAIN-KEYWORD,canalplus
 
 # movistar+
-DOMAIN-SUFFIX,emisiondof6.com
+DOMAIN-KEYWORD,movistarplus
 DOMAIN-SUFFIX,telefonica.com
 
 # viaplay
 DOMAIN-SUFFIX,viaplay.tv
 DOMAIN-SUFFIX,telia.com
 
-# ziggo
-DOMAIN-SUFFIX,dmdsdp.com
-DOMAIN-SUFFIX,upcbroadband.com
+# melita tsn
+DOMAIN-SUFFIX,melitacable.com
