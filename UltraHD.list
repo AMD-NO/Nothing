@@ -1,13 +1,15 @@
 # canal+
 DOMAIN-KEYWORD,canalplus
+DOMAIN-SUFFIX,redcdn.pl
 
 # movistar+
 DOMAIN-KEYWORD,movistarplus
 DOMAIN-SUFFIX,telefonica.com
 
+# sky
+DOMAIN-SUFFIX,skycdp.com
+DOMAIN-SUFFIX,skycdn.it
+
 # viaplay
 DOMAIN-SUFFIX,viaplay.tv
 DOMAIN-SUFFIX,telia.com
-
-# melita tsn
-DOMAIN-SUFFIX,melitacable.com
