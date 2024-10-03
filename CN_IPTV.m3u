@@ -122,7 +122,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000334/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002016/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/东方财经.png" group-title="数字频道",东方财经
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002025/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/法治天地.png" group-title="数字频道",法制天地
+#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/法治天地.png" group-title="数字频道",法治天地
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002010/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/生活时尚.png" group-title="数字频道",生活时尚
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002019/index.m3u8
