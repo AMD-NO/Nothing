@@ -118,7 +118,7 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000333/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000332/index.m3u8
 #EXTINF:-1 tvg-name="金鹰纪实" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/金鹰纪实.png" group-title="数字频道",金鹰纪实
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000334/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/乐游.png" group-title="数字频道",乐游
+#EXTINF:-1 tvg-name="全纪实" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/乐游.png" group-title="数字频道",乐游
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002016/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/东方财经.png" group-title="数字频道",东方财经
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002025/index.m3u8
@@ -175,8 +175,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000073/index.m3u8
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩篮球.png" group-title="数字频道",睛彩篮球
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226469/index.m3u8
-#http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226398/index.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩青少.png" group-title="数字频道",睛彩青少
 http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
 #EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
