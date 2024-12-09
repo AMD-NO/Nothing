@@ -1,14 +1,10 @@
 # canal+
 DOMAIN-KEYWORD,canalplus
 
-# oqee
-DOMAIN-SUFFIX,oqee.net
-
-# sky
-DOMAIN-SUFFIX,skycdp.com
-
 # vectra
 DOMAIN-SUFFIX,blueonline.tv
 
-# ziggo
-DOMAIN-SUFFIX,upcbroadband.com
+# tv team
+DOMAIN-SUFFIX,tv.team
+DOMAIN-SUFFIX,troya.tv
+DOMAIN-SUFFIX,troya.info
