@@ -71,10 +71,10 @@ var title = flags.get(obj["countryCode"]) + " " + checkCity(obj["city"]);
 var subtitle = checkISP(obj["org"] || obj.isp);
 var ip = obj["query"];
 var description =
-  "IP : " + obj["query"] + "\n" +
-  "ISP : " + obj["isp"] + "\n" +
-  "城市 : " + checkCity(obj["countryCode"]) + " " + obj["city"] + "\n" +
-  "区域 : " + obj["regionName"] + "\n" +
-  "时区 : " + obj["timezone"];
+  "<b>IP :</b> " + obj["query"] + "<br>" +
+  "<b>ISP :</b> " + checkISP(obj["isp"] || obj.org) + "<br>" +
+  "<b>城市 :</b> " + checkCity(obj["countryCode"]) + " " + obj["city"] + "<br>" +
+  "<b>区域 :</b> " + obj["regionName"] + "<br>" +
+  "<b>时区 :</b> " + obj["timezone"];
 
 $done({ title: title, subtitle: subtitle, ip: ip, description: description });
