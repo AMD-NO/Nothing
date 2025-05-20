@@ -16,7 +16,7 @@ const paran = ["IP", "ISP", "地区", "城市", "时区"];
 $httpClient.get(requestParams, (error, response, data) => {
   if (error) {
     message = "<br><br>❗️查询超时❗️";
-    message = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: bold">${message}</p>`;
+    message = "<p style='text-align: center; font-family: -apple-system; font-size: large; font-weight: bold'>" + message + "</p>";
     $done({ title: "IP.SB 查询结果", htmlMessage: message });
   } else {
     console.log(data);
@@ -33,15 +33,15 @@ function json2info(cnt, paras) {
   for (let i = 0; i < paras.length; i++) {
     parsedCnt[paras[i]] = 
       paras[i] === "country_code" 
-        ? `${parsedCnt[paras[i]]} ${flags.get(parsedCnt[paras[i]].toUpperCase()) || ""}`
+        ? parsedCnt[paras[i]] + " " + (flags.get(parsedCnt[paras[i]].toUpperCase()) || "")
         : parsedCnt[paras[i]];
     res = parsedCnt[paras[i]]
-      ? `${res}<br><b><font color=>${paran[i]}</font> : </b><font color=>${parsedCnt[paras[i]]}</font><br>`
+      ? res + "<br><b><font color=>" + paran[i] + "</font> : </b><font color=>" + parsedCnt[paras[i]] + "</font><br>"
       : res;
   }
 
-  res = `${res}------------------------------<br><font color="#6959CD"><b>节点</b> ➟ ${$environment.params.node}</font>`;
-  res = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin">${res}</p>`;
+  res = res + "------------------------------<br><font color='#6959CD'><b>节点</b> ➟ " + $environment.params.node + "</font>";
+  res = "<p style='text-align: center; font-family: -apple-system; font-size: large; font-weight: thin'>" + res + "</p>";
   return res;
 }
 
@@ -86,5 +86,5 @@ const flags = new Map([
   ["TZ", "🇹🇿"], ["UA", "🇺🇦"], ["UG", "🇺🇬"], ["UM", "🇺🇲"], ["US", "🇺🇸"], ["UY", "🇺🇾"], 
   ["UZ", "🇺🇿"], ["VA", "🇻🇦"], ["VC", "🇻🇨"], ["VE", "🇻🇪"], ["VG", "🇻🇬"], ["VI", "🇻🇮"], 
   ["VN", "🇻🇳"], ["VU", "🇻🇺"], ["WF", "🇼🇫"], ["WS", "🇼🇸"], ["YE", "🇾🇪"], ["YT", "🇾🇹"], 
-  ["ZA", "🇿🇦"], ["ZM", "🇿🇲"], ["ZW", "🇿🇼"]
+  ["ZA", "🇿🇦"], ["ZM", "🇿🇲"], ["ZW", "🇿🇼"], ["TW", "🇹🇼"]
 ]);
