@@ -36,7 +36,7 @@ function json2info(cnt, paras) {
         ? parsedCnt[paras[i]] + " " + (flags.get(parsedCnt[paras[i]].toUpperCase()) || "")
         : parsedCnt[paras[i]];
     res = parsedCnt[paras[i]]
-      ? res + "<br><b><font color=>" + paran[i] + "</font> : </b><font color=>" + parsedCnt[paras[i]] + "</font><br>"
+      ? res + "<br><b>" + paran[i] + " : </b>" + parsedCnt[paras[i]] + "<br>"
       : res;
   }
 
