@@ -23,7 +23,7 @@ $task.fetch(myRequest).then(response => {
     });
 }, reason => {
     message = "<br><br>❗️查询超时❗️";
-    message = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: bold">${message}</p>`;
+    message = "<p style='text-align: center; font-family: -apple-system; font-size: large; font-weight: bold'>" + message + "</p>";
     $done({
         title: "            IP.SB 查询结果",
         htmlMessage: message
@@ -34,13 +34,13 @@ function json2info(cnt, paras) {
     let res = "------------------------------";
     cnt = JSON.parse(cnt);
     for (let i = 0; i < paras.length; i++) {
-        cnt[paras[i]] = paras[i] === "country_code" ? `${cnt[paras[i]]} ${flags.get(cnt[paras[i]].toUpperCase())}` : cnt[paras[i]];
+        cnt[paras[i]] = paras[i] === "country_code" ? cnt[paras[i]] + " " + flags.get(cnt[paras[i]].toUpperCase()) : cnt[paras[i]];
         if (cnt[paras[i]]) {
-            res += `<br><b><font color="">${paran[i]}</font> : </b><font color="">${cnt[paras[i]]}</font><br>`;
+            res += "<br><b>" + paran[i] + " : </b>" + cnt[paras[i]] + "<br>";
         }
     }
-    res += `------------------------------<br><font color=#6959CD><b>节点</b> ➟ ${$environment.params}</font>`;
-    res = `<p style="text-align: center; font-family: -apple-system; font-size: large; font-weight: thin">${res}</p>`;
+    res += "------------------------------<br><font color='#6959CD'><b>节点</b> ➟ " + $environment.params + "</font>";
+    res = "<p style='text-align: center; font-family: -apple-system; font-size: large; font-weight: thin'>" + res + "</p>";
     return res;
 }
 
