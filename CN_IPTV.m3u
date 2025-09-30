@@ -32,8 +32,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000345/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000323/index.m3u8
 #EXTINF:-1 tvg-name="CCTV15" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CCTV15.png" group-title="央视频道",CCTV-15 音乐
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000346/index.m3u8
-#EXTINF:-1 tvg-name="CCTV16" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CCTV16.png" group-title="央视频道",CCTV-16 奥林匹克
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226100/index.m3u8
 #EXTINF:-1 tvg-name="CCTV17" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CCTV17.png" group-title="央视频道",CCTV-17 农业农村
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000303/index.m3u8
 #EXTINF:-1 tvg-name="CCTV4K" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CCTV4K.png" group-title="央视频道",CCTV-4K 超高清
@@ -54,6 +52,25 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000355/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000356/index.m3u8
 #EXTINF:-1 tvg-name="CGTN俄语" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CGTNR.png" group-title="央视频道",CGTN 俄语
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000357/index.m3u8
+
+#EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/北京卫视.png" group-title="卫视频道",北京卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000001/index.m3u8
+#EXTINF:-1 tvg-name="东方卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/东方卫视.png" group-title="卫视频道",东方卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000009/index.m3u8
+#EXTINF:-1 tvg-name="浙江卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/浙江卫视.png" group-title="卫视频道",浙江卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000008/index.m3u8
+#EXTINF:-1 tvg-name="江苏卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/江苏卫视.png" group-title="卫视频道",江苏卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000007/index.m3u8
+#EXTINF:-1 tvg-name="湖南卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/湖南卫视.png" group-title="卫视频道",湖南卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000006/index.m3u8
+#EXTINF:-1 tvg-name="广东卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/广东卫视.png" group-title="卫视频道",广东卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000003/index.m3u8
+#EXTINF:-1 tvg-name="深圳卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/深圳卫视.png" group-title="卫视频道",深圳卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000004/index.m3u8
+#EXTINF:-1 tvg-name="山东卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/山东卫视.png" group-title="卫视频道",山东卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000005/index.m3u8
+#EXTINF:-1 tvg-name="四川卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/四川卫视.png" group-title="卫视频道",四川卫视 4K
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL40000010/index.m3u8
 
 #EXTINF:-1 tvg-name="北京卫视" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/北京卫视.png" group-title="卫视频道",北京卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000302/index.m3u8
@@ -130,18 +147,12 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002010/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002019/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/金色学堂.png" group-title="数字频道",金色学堂
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002018/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/魅力足球.png" group-title="数字频道",魅力足球
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002021/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/劲爆体育.png" group-title="数字频道",劲爆体育
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002026/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/精彩影视.png" group-title="数字频道",精彩影视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002012/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/都市剧场.png" group-title="数字频道",都市剧场
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002022/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/黑莓电影.png" group-title="数字频道",黑莓电影
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225743/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/黑莓动画.png" group-title="数字频道",黑莓动画
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221225662/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/动漫秀场.png" group-title="数字频道",动漫秀场
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00002000/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/游戏风云.png" group-title="数字频道",游戏风云
@@ -164,8 +175,6 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000657/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000711/index.m3u8
 #EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/山东教育.png" group-title="数字频道",山东教育卫视
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000331/index.m3u8
-#EXTINF:-1 tvg-name="" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/海洋频道.png" group-title="数字频道",海洋频道
-http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000662/index.m3u8
 #EXTINF:-1 tvg-name="中国教育1台" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CETV1.png" group-title="数字频道",中国教育1台
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000076/index.m3u8
 #EXTINF:-1 tvg-name="中国教育4台" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/CETV4.png" group-title="数字频道",中国教育4台
@@ -173,31 +182,8 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000666/index.m3u8
 #EXTINF:-1 tvg-name="中国交通频道" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/中国交通.png" group-title="数字频道",中国交通
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000073/index.m3u8
 
-#EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩竞技.png" group-title="数字频道",睛彩竞技
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226124/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩篮球.png" group-title="数字频道",睛彩篮球
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226147/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩青少.png" group-title="数字频道",睛彩青少
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226508/index.m3u8
-#EXTINF:-1 tvg-logo="https://gitee.com/Carlitos/TB/raw/master/睛彩广场舞.png" group-title="数字频道",睛彩广场舞
-http://ottrrs.hl.chinamobile.com/PLTV/88888888/224/3221226472/index.m3u8
-
 #EXTINF:-1 group-title="数字频道",Red Bull TV
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master_6660.m3u8
-#EXTINF:-1 group-title="数字频道",Love Nature 4K
-https://d18dyiwu97wm6q.cloudfront.net/playlist2160p.m3u8
-#EXTINF:-1 group-title="数字频道",TSN 1
-http://212.102.60.231/TSN_1/index.m3u8
-#EXTINF:-1 group-title="数字频道",TSN 2
-http://212.102.60.231/TSN_2/index.m3u8
-#EXTINF:-1 group-title="数字频道",TSN 3
-http://212.102.60.231/TSN_3/index.m3u8
-#EXTINF:-1 group-title="数字频道",TSN 4
-http://212.102.60.231/TSN_4/index.m3u8
-#EXTINF:-1 group-title="数字频道",TSN 5
-http://212.102.60.231/TSN_5/index.m3u8
-#EXTINF:-1 group-title="数字频道",Tennis Channel
-http://212.102.60.231/TENNIS_CHANNEL/index.m3u8
 
 #EXTINF:-1 tvg-name="山东齐鲁" tvg-logo="https://gitee.com/Carlitos/TB/raw/master/山东齐鲁.png" group-title="地方频道",山东齐鲁频道
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000313/index.m3u8
@@ -220,8 +206,14 @@ http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000336/index.m3u8
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000312/index.m3u8
 #EXTINF:-1 group-title="地方频道",济南教育
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000069/index.m3u8
+#EXTINF:-1 group-title="地方频道",泰安综合
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00000269/index.m3u8
 #EXTINF:-1 group-title="地方频道",东平综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001001/index.m3u8
+#EXTINF:-1 group-title="地方频道",泰山
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001114/index.m3u8
+#EXTINF:-1 group-title="地方频道",岱岳
+http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001013/index.m3u8
 #EXTINF:-1 group-title="地方频道",东阿综合
 http://ucdn.sd.chinamobile.com:8089/00/SNM/CHANNEL00001093/index.m3u8
 #EXTINF:-1 group-title="地方频道",临沂综合
