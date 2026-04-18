@@ -2,3 +2,6 @@
 Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
 Style: CHS,霞鹜新晰黑,18,&H00E0E0E0,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,90,0,0,1,1.5,2,2,0,0,13,1
 Style: ENG,Cronos Pro Subhead,12,&H00FFEF80,&H0000FFFF,&H00000000,&H00000000,-1,0,0,0,100,90,0,0,1,1.5,2,2,0,0,2,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
