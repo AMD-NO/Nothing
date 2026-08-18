@@ -1,0 +1,426 @@
+mixed-port: 7890
+allow-lan: true
+bind-address: '*'
+mode: rule
+log-level: info
+ipv6: false
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  prefer-h3: true
+  listen: 0.0.0.0:53
+  default-nameserver:
+    - 223.6.6.6
+    - 114.114.114.114
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '*.lan'
+    - localhost.ptlogin2.qq.com
+  nameserver:
+    - 223.5.5.5
+    - 114.114.115.115
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+
+tun:
+  enable: true
+  stack: system
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+    - any:53
+
+proxy-providers:
+  Quinn:
+    type: http
+    url: "https://sub.xyz"
+    path: ./providers/Quinn.yaml
+    interval: 25920000
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
+      lazy: true
+    override:
+      udp: true
+      proxy-name:
+        # 去除国旗 emoji（区域指示符）
+        - pattern: "[🇦-🇿]{2}"
+          target: ""
+        # 原 Clash.ini 重命名规则
+        - pattern: "^"
+          target: "IEPL "
+
+  Darderi:
+    type: http
+    url: "https://sub.xyz"
+    path: ./providers/Darderi.yaml
+    interval: 25920000
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 3600
+      lazy: true
+    override:
+      udp: true
+      proxy-name:
+        # 去除国旗 emoji
+        - pattern: "[🇦-🇿]{2}"
+          target: ""
+        # 原 Clash.ini 重命名规则
+        - pattern: "狮城"
+          target: "新加坡"
+        - pattern: "伦敦"
+          target: "英国"
+        - pattern: "(澳洲|悉尼)"
+          target: "澳大利亚"
+
+proxy-groups:
+  - name: Proxy
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+
+  - name: HKG
+    type: select
+    include-all: true
+    filter: "(香港|HK|Hong Kong)"
+
+  - name: TWN
+    type: select
+    include-all: true
+    filter: "(台湾|TW|Taiwan)"
+
+  - name: SGP
+    type: select
+    include-all: true
+    filter: "(新加坡|SG|Singapore)"
+
+  - name: JPN
+    type: select
+    include-all: true
+    filter: "(日本|JP|Japan)"
+
+  - name: USA
+    type: select
+    include-all: true
+    filter: "(美国|US|United States)"
+
+  - name: Sooka
+    type: select
+    include-all: true
+    filter: "(马来西亚|MY|Malaysia|新加坡|SG|Singapore)"
+
+  - name: Emby
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+      - DIRECT
+
+  - name: Netflix
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+
+  - name: Disney+
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+
+  - name: YouTube
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+
+  - name: Telegram
+    type: select
+    proxies:
+      - HKG
+      - TWN
+      - SGP
+      - JPN
+      - USA
+      - EURO
+      - LAME
+      - OCEA
+
+  - name: EURO
+    type: select
+    include-all: true
+    filter: "(英国|United Kingdom|法国|France|荷兰|Netherlands|爱尔兰|Ireland|比利时|Belgium|卢森堡|Luxembourg|德国|Germany|波兰|Poland|瑞士|Switzerland|奥地利|Austria|匈牙利|Hungary|捷克|Czech|斯洛伐克|Slovakia|斯洛文尼亚|Slovenia|克罗地亚|Croatia|西班牙|Spain|希腊|Greece|意大利|Italy|葡萄牙|Portugal|塞尔维亚|Serbia|保加利亚|Bulgaria|罗马尼亚|Romania|丹麦|Denmark|挪威|Norway|冰岛|Iceland|芬兰|Finland|瑞典|Sweden|俄罗斯|Russia|乌克兰|Ukraine|立陶宛|Lithuania|拉脱维亚|Latvia|爱沙尼亚|Estonia)"
+
+  - name: LAME
+    type: select
+    include-all: true
+    filter: "(阿根廷|Argentina|巴西|Brazil|智利|Chile|墨西哥|Mexico|哥伦比亚|Colombia|哥斯达黎加|Costa Rica|秘鲁|Peru|乌拉圭|Uruguay|玻利维亚|Bolivia|厄瓜多尔|Ecuador|危地马拉|Guatemala)"
+
+  - name: OCEA
+    type: select
+    include-all: true
+    filter: "(澳大利亚|AU|Australia|新西兰|NZ|New Zealand)"
+
+rule-providers:
+  Unbreak:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Unbreak.list"
+    path: ./ruleset/Unbreak.yaml
+    interval: 25920000
+
+  Blocking:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Blocking.list"
+    path: ./ruleset/Blocking.yaml
+    interval: 25920000
+
+  Emby:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/Nothing/main/Emby.list"
+    path: ./ruleset/Emby.yaml
+    interval: 25920000
+
+  TWN:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/TWN.list"
+    path: ./ruleset/TWN.yaml
+    interval: 25920000
+
+  JPN:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/JPN.list"
+    path: ./ruleset/JPN.yaml
+    interval: 25920000
+
+  USA:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/USA.list"
+    path: ./ruleset/USA.yaml
+    interval: 25920000
+
+  DisneyPlus:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/DisneyPlus.list"
+    path: ./ruleset/DisneyPlus.yaml
+    interval: 25920000
+
+  Netflix:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Netflix.list"
+    path: ./ruleset/Netflix.yaml
+    interval: 25920000
+
+  Max:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Max.list"
+    path: ./ruleset/Max.yaml
+    interval: 25920000
+
+  Prime-Video:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Prime-Video.list"
+    path: ./ruleset/Prime-Video.yaml
+    interval: 25920000
+
+  YouTube:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/YouTube.list"
+    path: ./ruleset/YouTube.yaml
+    interval: 25920000
+
+  Spotify:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Spotify.list"
+    path: ./ruleset/Spotify.yaml
+    interval: 25920000
+
+  BBC:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/BBC.list"
+    path: ./ruleset/BBC.yaml
+    interval: 25920000
+
+  Stan:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Stan.list"
+    path: ./ruleset/Stan.yaml
+    interval: 25920000
+
+  Telegram:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Telegram.list"
+    path: ./ruleset/Telegram.yaml
+    interval: 25920000
+
+  PayPal:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/PayPal.list"
+    path: ./ruleset/PayPal.yaml
+    interval: 25920000
+
+  Meta:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Meta.list"
+    path: ./ruleset/Meta.yaml
+    interval: 25920000
+
+  Twitter:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Twitter.list"
+    path: ./ruleset/Twitter.yaml
+    interval: 25920000
+
+  Google:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Google.list"
+    path: ./ruleset/Google.yaml
+    interval: 25920000
+
+  Sooka:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/Nothing/main/Sooka.list"
+    path: ./ruleset/Sooka.yaml
+    interval: 25920000
+
+  SofaScore:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/SofaScore.list"
+    path: ./ruleset/SofaScore.yaml
+    interval: 25920000
+
+  ProxyLite:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/ProxyLite.list"
+    path: ./ruleset/ProxyLite.yaml
+    interval: 25920000
+
+  Apple:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Apple.list"
+    path: ./ruleset/Apple.yaml
+    interval: 25920000
+
+  Microsoft:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/Microsoft.list"
+    path: ./ruleset/Microsoft.yaml
+    interval: 25920000
+
+  LAN:
+    type: http
+    behavior: classical
+    format: text
+    url: "https://raw.githubusercontent.com/AMD-NO/RULE-SET/main/LAN.list"
+    path: ./ruleset/LAN.yaml
+    interval: 25920000
+
+rules:
+  - RULE-SET,Unbreak,DIRECT
+  - RULE-SET,Blocking,REJECT
+  - RULE-SET,Emby,Emby
+  - RULE-SET,TWN,TWN
+  - RULE-SET,JPN,JPN
+  - RULE-SET,USA,USA
+  - RULE-SET,DisneyPlus,Disney+
+  - RULE-SET,Netflix,Netflix
+  - RULE-SET,Max,Netflix
+  - RULE-SET,Prime-Video,Netflix
+  - RULE-SET,YouTube,YouTube
+  - RULE-SET,Spotify,SGP
+  - RULE-SET,BBC,EURO
+  - RULE-SET,Stan,OCEA
+  - RULE-SET,Telegram,Telegram
+  - RULE-SET,PayPal,USA
+  - RULE-SET,Meta,SGP
+  - RULE-SET,Twitter,USA
+  - RULE-SET,Google,Proxy
+  - RULE-SET,Sooka,Sooka
+  - RULE-SET,SofaScore,SGP
+  - RULE-SET,ProxyLite,Proxy
+  - RULE-SET,Apple,DIRECT
+  - RULE-SET,Microsoft,DIRECT
+  - RULE-SET,LAN,DIRECT
+  - MATCH,Proxy
