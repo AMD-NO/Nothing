@@ -46,10 +46,8 @@ proxy-providers:
     override:
       udp: true
       proxy-name:
-        # 去除国旗 emoji（区域指示符）
         - pattern: "[🇦-🇿]{2}"
           target: ""
-        # 原 Clash.ini 重命名规则
         - pattern: "^"
           target: "IEPL "
 
@@ -66,16 +64,10 @@ proxy-providers:
     override:
       udp: true
       proxy-name:
-        # 去除国旗 emoji
         - pattern: "[🇦-🇿]{2}"
           target: ""
-        # 原 Clash.ini 重命名规则
         - pattern: "狮城"
           target: "新加坡"
-        - pattern: "伦敦"
-          target: "英国"
-        - pattern: "(澳洲|悉尼)"
-          target: "澳大利亚"
 
 proxy-groups:
   - name: Proxy
@@ -114,11 +106,6 @@ proxy-groups:
     type: select
     include-all: true
     filter: "(美国|US|United States)"
-
-  - name: Sooka
-    type: select
-    include-all: true
-    filter: "(马来西亚|MY|Malaysia|新加坡|SG|Singapore)"
 
   - name: Emby
     type: select
@@ -349,14 +336,6 @@ rule-providers:
     path: ./ruleset/Google.yaml
     interval: 25920000
 
-  Sooka:
-    type: http
-    behavior: classical
-    format: text
-    url: "https://raw.githubusercontent.com/AMD-NO/Nothing/main/Sooka.list"
-    path: ./ruleset/Sooka.yaml
-    interval: 25920000
-
   SofaScore:
     type: http
     behavior: classical
@@ -417,7 +396,6 @@ rules:
   - RULE-SET,Meta,SGP
   - RULE-SET,Twitter,USA
   - RULE-SET,Google,Proxy
-  - RULE-SET,Sooka,Sooka
   - RULE-SET,SofaScore,SGP
   - RULE-SET,ProxyLite,Proxy
   - RULE-SET,Apple,DIRECT
